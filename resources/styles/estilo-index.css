@@ -1,10 +1,6 @@
 #general{
     float: left;
 }
-/*ul{
-    width: 125px;
-    list-style-type:none;
-}*/
 ul li{
     background-color: blue;
     color: white;
