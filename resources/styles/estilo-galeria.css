@@ -1,4 +1,4 @@
-*{
+/**{
     box-sizing:border-box;
     margin:0;
     padding:0;
@@ -23,7 +23,73 @@ p{
 }
 .parallax{
     height:500px;
-    background-image:url(../images/1.jpg);
+    background-image:url("../images/1.jpg");
     background-size:cover;
     background-attachment: fixed;
+}*/
+#fondo {
+	/*background-image: url("../images/1.jpg");*/
+	padding: 400px 100px;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#fondo:before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+/*Menú desplegable*/
+#general{
+    float: left;
+    width: 95vw;
+    background-color: blue;
+}
+ul li{
+    background-color: blue;
+    color: white;
+    text-align: center;
+	padding: 0px;
+    margin: 0px;
+	width: 125px;
+	height: 30px;
+    position: relative;
+    float: left;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10;
+}
+a:hover{
+    color: black;
+    background-color: white;
+    display: block;
+    text-decoration: underline;
+}
+li:hover{
+    color: black;
+    background-color: white;
+    display: block;
+}
+ul ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    left: 0px;
+    padding: 0px;
+}
+ul ul li{
+    float:none;
+    width:125px;
+}
+ul li:hover > ul {
+    display:block;
 }

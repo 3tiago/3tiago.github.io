@@ -1,5 +1,9 @@
+body{
+    background-image: url("../images/1.jpg");
+
+}
 #fondo {
-	background-image: url(/*url del fondo*/);
+	/*background-image: url("../images/1.jpg");*/
 	padding: 400px 100px;
 	text-align: center;
 	background-position: center center;
@@ -63,4 +67,7 @@ ul ul li{
 }
 ul li:hover > ul {
     display:block;
+}
+#nombreRestaurante{
+    color:azure;
 }
