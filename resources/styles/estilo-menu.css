@@ -64,3 +64,25 @@ ul ul li{
 ul li:hover > ul {
     display:block;
 }
+body{
+    background-image: url("../images/interior2.jpg");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Estilo propio del menú*/
+#mainMenu{
+    width: 90vw;
+    height: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    color:azure;
+    /*Decoraciones de texto restantes*/
+}
+.zonaPlatos{
+    align-content: center;
+    justify-content: center;
+}

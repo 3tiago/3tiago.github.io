@@ -64,3 +64,8 @@ ul ul li{
 ul li:hover > ul {
     display:block;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

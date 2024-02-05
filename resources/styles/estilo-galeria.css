@@ -1,4 +1,5 @@
-/**{
+/*Prueba efecto parallax (no funciona)
+*{
     box-sizing:border-box;
     margin:0;
     padding:0;
@@ -92,4 +93,20 @@ ul ul li{
 }
 ul li:hover > ul {
     display:block;
+}
+body{
+    background-image: url("../images/1.jpg");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#expositores{
+    width: 90vw;
+    height: 90vw;
+    display: flex;
+}
+.expositor{
+    shape-margin: 20%;
+    /*insertar efecto de sombra*/
 }
