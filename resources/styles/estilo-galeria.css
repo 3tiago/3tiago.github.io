@@ -105,10 +105,15 @@ body{
     width: 90vw;
     height: 90vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    resize: vertical;
+    overflow: auto;
+    min-width: 500px;
+    min-height: 500px;
+    align-items: center;
 }
-.expositor{
-    border-radius: 20%;
+.expositor img{
+    border-radius: 100%;
     /*overflow:hidden;*/
 }
 .expositor:hover img {

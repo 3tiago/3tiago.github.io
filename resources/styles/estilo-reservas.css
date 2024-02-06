@@ -79,3 +79,7 @@ body{
 .celda{
     display: table-cell;
 }
+.celdaE{
+    display: table-cell;
+    column-span: 2;
+}
