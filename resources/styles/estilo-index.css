@@ -73,3 +73,6 @@ ul li:hover > ul {
 #nombreRestaurante{
     color:azure;
 }
+img:hover {
+    filter: blur(5px);
+}

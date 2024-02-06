@@ -69,3 +69,13 @@ body{
     flex-direction: column;
     align-items: center;
 }
+/*Propiedades para la tabla css del formulario de reserva*/
+#tabla{
+    display: table;
+}
+.fila{
+    display: table-row;
+}
+.celda{
+    display: table-cell;
+}
