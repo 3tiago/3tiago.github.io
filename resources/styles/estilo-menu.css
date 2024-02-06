@@ -86,3 +86,11 @@ body{
     align-content: center;
     justify-content: center;
 }
+.plato{
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    justify-self: center;
+}
