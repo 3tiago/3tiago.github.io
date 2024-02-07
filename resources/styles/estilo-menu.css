@@ -20,10 +20,10 @@
 #general{
     float: left;
     width: 95vw;
-    background-color: blue;
+    background-color: rgb(142, 142, 190);
 }
 ul li{
-    background-color: blue;
+    background-color: rgb(142, 142, 190);
     color: white;
     text-align: center;
 	padding: 0px;
@@ -36,7 +36,7 @@ ul li{
 a{
     display: block;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 3, 7);
     padding: 10;
 }
 a:hover{
@@ -65,7 +65,7 @@ ul li:hover > ul {
     display:block;
 }
 body{
-    background-image: url("../images/interior2.jpg");
+    background-color:rgba(165, 124, 71, 0.856);
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-self: center;
-    color:azure;
+    color:rgb(0, 2, 2);
     /*Decoraciones de texto restantes*/
 }
 .zonaPlatos{
