@@ -102,7 +102,7 @@ body{
     align-items: center;
 }
 #expositores{
-    width: 100vw;
+    width: 120vw;
     height: 90vw;
     display: flex;
     flex-direction: row;
