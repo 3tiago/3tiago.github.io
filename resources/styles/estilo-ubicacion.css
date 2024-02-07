@@ -70,3 +70,13 @@ body{
     flex-direction: column;
     align-items: center;
 }
+/*RSS tiempo*/
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#tiempo{
+    margin-left: 240px;
+    font-size: 27pt;
+}
