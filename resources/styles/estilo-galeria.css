@@ -117,6 +117,10 @@ body{
     /*overflow:hidden;*/
 }
 .expositor:hover img {
+    /*Rotación*/
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    /*Ampliación*/
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
