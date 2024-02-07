@@ -94,3 +94,17 @@ body{
     justify-self: center;
     justify-self: center;
 }
+/* Para ocultar las imágenes */
+.plato img {
+    display: none;
+    position: absolute;
+    z-index: 1; 
+}
+/* Para mostrar las imágenes al hacer hover */
+.plato:hover img {
+    display: block;
+}
+.plato {
+    position: relative;
+    z-index: 2;
+}
