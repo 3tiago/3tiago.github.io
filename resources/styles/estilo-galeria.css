@@ -102,15 +102,16 @@ body{
     align-items: center;
 }
 #expositores{
-    width: 90vw;
+    width: 100vw;
     height: 90vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     resize: vertical;
     overflow: auto;
     min-width: 500px;
     min-height: 500px;
-    align-items: center;
+    align-items: flex-start;
+    animation: scrolling 40s linear infinite;
 }
 .expositor img{
     border-radius: 100%;
@@ -125,4 +126,8 @@ body{
     -webkit-transform-style: preserve-3d;
     transform: rotateY(180deg);
     transform-style: preserve-3d;*/
+}
+@keyframes scrolling {
+	0% {transform: translateX(25%)}
+	100%{transform: translateX(-100%)}
 }
