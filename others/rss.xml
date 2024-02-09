@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../resources/styles/estilo-rss.css"?>
+<!--<?xml-stylesheet type="text/css" href="../resources/styles/estilo-rss.css"?>-->
 <rss version="2.0">
     <channel>
         <title>Tiempo</title>
         <link>https://3tiago.github.io</link>
         <description>Tiempo</description>
-        <copyright>Google Ltd.</copyright>
         <item>
-            <title>Google</title>
-            <link>google.es</link>
+            <title>El tiempo en Alicante</title>
+            <link>https://www.eltiempo.es/alicante.html</link>
             <description>Buscador</description>
-            <author>google</author>
-            <pubDate>ayer</pubDate>
-            <encloruse url="https://3tiago.github.io" type="url" lenght="400" />
+        </item>
+        <item>
+            <title>El tiempo en Castellón</title>
+            <link>https://www.eltiempo.es/castellon.html</link>
+            <description>Buscador</description>
+        </item>
+        <item>
+            <title>El tiempo en Valencia</title>
+            <link>https://www.eltiempo.es/valencia.html</link>
+            <description>Buscador</description>
         </item>
     </channel>
 </rss>

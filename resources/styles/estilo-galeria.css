@@ -7,16 +7,16 @@
 p{
     color:#fff;
 }
-.container-fluid{
+.contenedorEstatico{
     width:100%;
 }
-.container{
+.contenedor{
     max-width:1080px;
     width:100%;
     margin:auto;
     padding:32px;
 }
-.center{
+.centroContenedorEstatico{
     text-align:center;
 }
 .black{
@@ -28,8 +28,8 @@ p{
     background-size:cover;
     background-attachment: fixed;
 }*/
-#fondo {
-	/*background-image: url("../images/1.jpg");*/
+/*#fondo {
+	background-image: url("../images/1.jpg");
 	padding: 400px 100px;
 	text-align: center;
 	background-position: center center;
@@ -45,7 +45,7 @@ p{
 	left: 0;
 	right: 0;
 	background-color: rgba(0,0,0,0.6);
-}
+}*/
 /*Menú desplegable*/
 #general{
     float: left;
@@ -102,20 +102,21 @@ body{
     align-items: center;
 }
 #expositores{
-    width: 120vw;
-    height: 90vw;
+    width: 190vw;
+    height: 30vw;
     display: flex;
     flex-direction: row;
     resize: vertical;
     overflow: auto;
     min-width: 500px;
     min-height: 500px;
-    align-items: flex-start;
-    animation: scrolling 40s linear infinite;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 30s linear 1;
     margin: top 200px;
 }
 .expositor img{
-    border-radius: 100%;
+    border-radius: 50%;
     /*overflow:hidden;*/
 }
 .expositor:hover img {
@@ -128,9 +129,10 @@ body{
     transform: rotateY(180deg);
     transform-style: preserve-3d;*/
 }
-@keyframes scrolling {
+@keyframes movimiento {
 	0% {transform: translateX(25%)}
-	100%{transform: translateX(-100%)}
+    50% {transform: translateX(-25%)}
+	100%{transform: translateX(25%)}
 }
 /*Diseño responsive*/
 /*Para tamaño mínimo*/

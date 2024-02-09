@@ -1,21 +1,3 @@
-#fondo {
-	/*background-image: url("../images/1.jpg");*/
-	padding: 400px 100px;
-	text-align: center;
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-}
-#fondo:before{
-    content:'';
-	position: absolute;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
-}
 /*Menú desplegable*/
 #general{
     float: left;
@@ -109,6 +91,16 @@ body{
 #mainMenu {
     position: relative;
     z-index: 3;
+}
+@font-face {
+    font-family: fuente1;
+    src: url(../fonts/verdanai.ttf);
+}
+h1{
+    font-family: fuente1;
+}
+h2{
+    font-family: fuente1;
 }
 /*Diseño responsive*/
 /*Para tamaño mínimo*/
