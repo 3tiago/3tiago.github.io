@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(1, 9, 22, 0.952);
+    /*background-color: rgba(1, 9, 22, 0.952);*/
+    background-image: url("../images/fondo-vintage.jpg");
     display: flex;
     flex-direction: column;
     align-items: center;
