@@ -61,6 +61,9 @@ div{
 #tiempo{
     margin-left: 240px;
     font-size: 27pt;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
 }
 /*Diseño responsive*/
 /*Para tamaño mínimo*/
