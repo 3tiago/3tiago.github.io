@@ -135,11 +135,18 @@ body{
 	100%{transform: translateX(25%)}
 }
 /*Diseño responsive*/
+footer{
+    visibility: hidden;
+}
 /*Para tamaño mínimo*/
 @media (max-width: 700px){
-    
+    body{
+        visibility: hidden;
+    }
+    footer{
+        visibility: visible;
+        position: absolute;
+        color: red;
+        font-size: 40pt;
+    }
 }
-/*Para intermedio*/
-/*@media (min-width: 900px){
-
-}*/

@@ -52,6 +52,13 @@ body{
     flex-direction: column;
     align-items: center;
 }
+p{
+    font-family: fuente1;
+}
+@font-face {
+    font-family: fuente1;
+    src: url(../fonts/verdanai.ttf);
+}
 /*RSS tiempo*/
 div{
     display: flex;
@@ -66,11 +73,18 @@ div{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
 }
 /*Diseño responsive*/
+footer{
+    visibility: hidden;
+}
 /*Para tamaño mínimo*/
 @media (max-width: 700px){
-    
+    body{
+        visibility: hidden;
+    }
+    footer{
+        visibility: visible;
+        position: absolute;
+        color: red;
+        font-size: 40pt;
+    }
 }
-/*Para intermedio*/
-/*@media (min-width: 900px){
-
-}*/
