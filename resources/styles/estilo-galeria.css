@@ -132,3 +132,12 @@ body{
 	0% {transform: translateX(25%)}
 	100%{transform: translateX(-100%)}
 }
+/*Diseño responsive*/
+/*Para tamaño mínimo*/
+@media (max-width: 700px){
+    
+}
+/*Para intermedio*/
+/*@media (min-width: 900px){
+
+}*/
