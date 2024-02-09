@@ -112,6 +112,7 @@ body{
     min-height: 500px;
     align-items: flex-start;
     animation: scrolling 40s linear infinite;
+    margin: top 200px;
 }
 .expositor img{
     border-radius: 100%;
