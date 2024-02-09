@@ -65,7 +65,7 @@ ul li:hover > ul {
     display:block;
 }
 body{
-    background-color:rgba(165, 124, 71, 0.856);
+    background-image: url("../images/fondo-vintage.jpg");
     background-repeat: repeat;
     display: flex;
     flex-direction: column;

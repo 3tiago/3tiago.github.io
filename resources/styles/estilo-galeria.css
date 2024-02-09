@@ -95,7 +95,7 @@ ul li:hover > ul {
     display:block;
 }
 body{
-    background-color:burlywood;
+    background-image: url("../images/fondo-vintage.jpg");
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
